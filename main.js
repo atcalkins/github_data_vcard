@@ -8,7 +8,9 @@ request.send();
 function displayInfo() {
   let formData = JSON.parse(this.responseText);
   let template = `
+    <div class=headbox>
     <h1>${formData.name}</h1>
+    </div>
       <article class = undertitle>
       <div class=info>
         <h2>The Basics</h2>
