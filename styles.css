@@ -1,0 +1,73 @@
+.undertitle {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+h1 {
+  text-align: center;
+  color: white;
+  background-color: black;
+  font-size: 60px;
+  font-weight: lighter;
+  font-family: 'EB Garamond', serif;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 30px;
+  color: black;
+  font-family: 'EB Garamond', serif;
+
+}
+
+
+.info {
+  color: grey;
+  flex-basis: 270px;
+  font-size: 14px;
+  margin-left: 200px;
+  margin-right: 20px;
+}
+
+li {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+
+hr {
+  width: 1px;
+  height: 150px;
+  background-color: lightgrey;
+}
+
+.bio {
+  color: grey;
+  flex-basis: 440px;
+  font-size: 14px;
+  margin-left: 20px;
+}
+
+img {
+  height: 110px;
+  border-radius: 150px;
+  margin-top: 50px;
+  margin-right: 250px;
+
+}
+
+
+a {
+  text-decoration: underline;
+  color: black;
+}
+
+a::after{
+  color: black;
+}
+
+.text {
+  color: teal;
+  text-decoration: none;
+}
