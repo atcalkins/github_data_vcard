@@ -34,7 +34,7 @@ h1 {
   font-weight: lighter;
   font-family: 'Zilla Slab', serif;
   font-family: 'Josefin Slab', serif;
-  padding: 20px;
+  padding: 3px;
   margin-top: 30px;;
   margin-bottom: 0px;
 }
@@ -101,4 +101,5 @@ a::after{
 .text {
   color: teal;
   text-decoration: none;
+  font-weight: bold;
 }
